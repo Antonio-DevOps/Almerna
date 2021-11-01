@@ -1,0 +1,61 @@
+$backgorund:#000;
+
+
+.box{
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    height: 100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    max-width: 100px;
+    padding: 0 1em;
+
+    &:hover{
+        background-color: black;
+    }
+}
+.header{
+    &-text{
+        background-color: $backgorund;
+        align-content: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        height: 24px;
+    }
+    &-title{
+        color: white;
+    }
+}
+.Navbar{
+    &-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    &-buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &-buttonMenu{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    &-burgermenu{
+        display: block;
+        width: 16px;
+        height: 1px;
+        background-color: $backgorund;
+    }
+}
