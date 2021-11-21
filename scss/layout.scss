@@ -20,13 +20,13 @@ $btnBorderColor: $primaryColor;
     margin: 0 auto;
 }
 
-.ba-row{
+.row{
     display: flex;
     flex-wrap: wrap;
     margin-left: -$gap;
     margin-right: -$gap;
 }
-.ba-row + .ba-row{
+.row + .row{
     margin-top: 1rem;
 }
 [class^="ba-col-"]{

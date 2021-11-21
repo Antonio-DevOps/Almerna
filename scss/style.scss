@@ -1,6 +1,9 @@
 $backgorund:#000;
 
-
+// @font-face {
+//     font-family: "History", sans-serif;
+//     src: url(../fonts/History\ Pro\ 02.otf);
+// }
 .box{
     background-color: #ccc;
     display: flex;
@@ -21,6 +24,9 @@ $backgorund:#000;
     &:hover{
         background-color: black;
     }
+}
+.margin0{
+    margin: 0;
 }
 .header{
     &-text{
@@ -57,5 +63,69 @@ $backgorund:#000;
         width: 16px;
         height: 1px;
         background-color: $backgorund;
+    }
+}
+.ba-section{
+    margin-top: 21px;
+}
+.containerGeneral{
+    width: 320px;
+    height: 507px;
+    background-image: url(../img/girls_General_.png);
+    overflow: hidden;
+    &-titleUpper{
+    margin-top: 44px;
+    margin-left: 11px;
+    margin-right: 21px;
+    font-family: 'Shalimar', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 26px;
+    }
+    &-titleLower{
+        font-family: 'Montagu Slab', serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #666666;
+
+    }
+    &-main{
+        justify-content: center;
+        align-items: center;
+    }
+    &-bnt{
+        margin-top: 12px;
+        // font-family: 'Montagu Slab', serif;
+        color: black;
+        :hover{
+            background-color: black;
+            color: white;
+        }
+    }
+    &-Stylebnt{
+        width: 103px;
+        height: 41px;
+        border: 1px solid #000000;
+        font-size: 14px;
+        padding: 0;
+        font-weight: 600;
+        line-height: 20px;
+        
+    }
+    &-StyleTextbnt{
+        font-family: 'Montagu Slab', serif;
+        color:#000000;
+    }
+    &-box{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-evenly;
     }
 }
