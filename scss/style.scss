@@ -96,6 +96,7 @@ $backgorund:#000;
     &-main{
         justify-content: center;
         align-items: center;
+        margin-bottom: 36px;
     }
     &-bnt{
         margin-top: 12px;
@@ -127,5 +128,36 @@ $backgorund:#000;
     margin-left: 0px;
     display: flex;
     justify-content: space-evenly;
+    }
+}
+// ==========================================section_2======================================
+.containerProducts{
+
+    &-title{
+    width: 261px;
+    height: 72px;
+    font-family: "Shalimar", cursive;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 36px;
+    text-align: center;
+    margin-top: 16px;
+    }
+    &-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+    }
+    &-navItems{
+    font-weight: 400;
+    font-size: 11px;
+    margin-left: 23px;
+    letter-spacing: 3px;
+    font-family: 'Montagu Slab', serif;
+    color: #000000;
+    :hover{
+        border-bottom: 3px solid #000000;
+        
+    }
     }
 }
