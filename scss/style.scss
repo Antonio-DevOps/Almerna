@@ -115,6 +115,7 @@ $backgorund:#000;
         padding: 0;
         font-weight: 600;
         line-height: 20px;
+        font-family: 'Apercu Pro';
         
     }
     &-StyleTextbnt{
@@ -157,7 +158,49 @@ $backgorund:#000;
     color: #000000;
     :hover{
         border-bottom: 3px solid #000000;
-        
     }
+    }
+}
+.slider_little{
+    left: 15px;
+}
+.item{
+    &_card{
+        width: 160px;
+        height: 312px;
+    }
+    &_img{
+        overflow: hidden;
+    }
+    &_name{
+        margin-top: 8px;
+        font-weight: 400;
+        font-family: 'History Pro 02';
+        color: black;
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: 2px;
+    }
+    &_price{
+        font-family: 'Apercu Pro';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.01em;
+        color:#929292;
+    }
+}
+.button{
+    &_container{
+        margin-top: 36px;
+    }
+    &_style{
+    width: 320px;
+    height: 56px;
+    font-family: 'Apercu Pro';
+    font-weight: bold;
+    border: 1px solid black;
+    margin-left: 15px;
     }
 }
