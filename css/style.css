@@ -201,6 +201,9 @@
 .containerProducts-navItems :hover {
   border-bottom: 3px solid #000000;
 }
+.containerProducts-main {
+  margin-bottom: 37px;
+}
 
 .slider_little {
   left: 15px;
@@ -242,4 +245,74 @@
   font-weight: bold;
   border: 1px solid black;
   margin-left: 15px;
+}
+
+.itemCards {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.itemCard_1 {
+  width: 360px;
+  height: 360px;
+  background-image: url(../img/slider_big/card_1_big.png);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "History Pro 02";
+}
+.itemCard_UpperCase {
+  width: 246px;
+  height: 222px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 22px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.itemCard_LowerCase {
+  color: white;
+  position: relative;
+}
+.itemCard_LowerCase ::before {
+  content: " ";
+  width: 100%;
+  height: 0px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  position: absolute;
+  bottom: -6px;
+}
+.itemCard_2 {
+  width: 360px;
+  height: 360px;
+  background-image: url(../img/slider_big/card_2_big.png);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "History Pro 02";
+}
+.itemCard_3 {
+  width: 360px;
+  height: 360px;
+  background-image: url(../img/slider_big/card_3_big.png);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "History Pro 02";
 }/*# sourceMappingURL=style.css.map */

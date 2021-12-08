@@ -282,6 +282,7 @@
   padding: 0;
   font-weight: 600;
   line-height: 20px;
+  font-family: "Apercu Pro";
 }
 .containerGeneral-StyleTextbnt {
   font-family: "Montagu Slab", serif;
@@ -337,6 +338,7 @@
 
 .item_card {
   width: 160px;
+  height: 312px;
 }
 .item_img {
   overflow: hidden;
@@ -358,4 +360,29 @@
   line-height: 20px;
   letter-spacing: 0.01em;
   color: #929292;
+}
+
+.button_container {
+  margin-top: 36px;
+}
+.button_style {
+  width: 320px;
+  height: 56px;
+  font-family: "Apercu Pro";
+  font-weight: bold;
+  border: 1px solid black;
+  margin-left: 15px;
+}
+
+.c {
+  height: 100px;
+}
+
+.a {
+  width: 50px;
+}
+
+.b {
+  width: 100px;
+  height: 50px;
 }/*# sourceMappingURL=app.css.map */

@@ -160,6 +160,9 @@ $backgorund:#000;
         border-bottom: 3px solid #000000;
     }
     }
+    &-main{
+        margin-bottom: 37px;
+    }
 }
 .slider_little{
     left: 15px;
@@ -202,5 +205,59 @@ $backgorund:#000;
     font-weight: bold;
     border: 1px solid black;
     margin-left: 15px;
+    }
+}
+// ========================New_Section===============================
+.itemCards{
+    flex-direction: column;
+}
+.itemCard{
+    &_1{
+        width: 360px;
+        height: 360px;
+        background-image: url(../img/slider_big/card_1_big.png);
+        flex-direction: column;
+        font-family: 'History Pro 02';
+    }
+    &_UpperCase{
+        width: 246px;
+        height: 222px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        color: white;
+        letter-spacing: 1px;
+        line-height: 32px;
+        font-weight: 400;
+    }
+    &_LowerCase{
+        color: white;
+        position: relative;
+        ::before{
+            content: " ";
+            width: 100%;
+            height: 0px;
+            background-color: #FFFFFF;
+            border: 1px solid #FFFFFF;
+            position: absolute;
+            bottom: -6px;
+            
+        }
+    }
+    &_2{
+        width: 360px;
+        height: 360px;
+        background-image: url(../img/slider_big/card_2_big.png);
+        flex-direction: column;
+        font-family: 'History Pro 02';
+    }
+    &_3{
+        width: 360px;
+        height: 360px;
+        background-image: url(../img/slider_big/card_3_big.png);
+        flex-direction: column;
+        font-family: 'History Pro 02';
     }
 }
